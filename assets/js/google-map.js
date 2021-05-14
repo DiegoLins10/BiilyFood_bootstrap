@@ -4,7 +4,8 @@ var map;
 
 function init() {
 	var mapOptions = {
-		center: new google.maps.LatLng(29.7063428,-95.40526,17),
+		//center: new google.maps.LatLng(29.7063428,-95.40526,17),
+		center: new google.maps.LatLng(-23.51064519507083, -46.376121872942726),
 		zoom: 17,
 		zoomControl: true,
 		zoomControlOptions: {
