@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
-	<meta name="author"      content="Diego Lins">
-	
-	<title>Sign in - Progressus Bootstrap template</title>
+	<meta name="author" content="Diego Lins">
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
+	<title>Cadastrar - Billyfood</title>
+
+	<link rel="shortcut icon" href="assets/images/kkk.png">
+
 	<link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
 	<link rel="stylesheet" href="assets/css/main.css">
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<link href="src/css/style.css" rel="stylesheet">
+	<link href="node_modules/bootstrap/scss/_reboot.scss" rel="stylesheet">
+	<link href="node_modules/bootstrap/scss/_buttons.scss" rel="stylesheet">
+	<link rel="stylesheet" href="node_modules/bootstrap/scss/_root.scss">
+	<!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 </head>
 
 <body>
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+	<div class="navbar navbar-inverse navbar-fixed-top headroom">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logopng2.png" alt="logo bilyfood"
+						style="
+					width: 98px;
+					height: 100%;
+					transform: scale(1.9);
+				"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="dropdown">
+					<li><a href="about.html">Sobre nós</a></li>
+					<!--<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="sidebar-left.html">Left Sidebar</a></li>
 							<li><a href="sidebar-right.html">Right Sidebar</a></li>
 						</ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-					<li class="active"><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>
+					</li>-->
+					<li><a href="contact.html">Contatos</a></li>
+					<li class="active"><a class="btn" href="signin.html">LOGIN / CADASTRAR</a></li>
 				</ul>
-			</div><!--/.nav-collapse -->
+			</div>
+			<!--/.nav-collapse -->
 		</div>
-	</div> 
+	</div>
 	<!-- /.navbar -->
 
 	<header id="head" class="secondary"></header>
@@ -60,110 +72,150 @@
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
-			<li class="active">User access</li>
+			<li class="active">Entrar</li>
 		</ol>
 
 		<div class="row">
-			
+
 			<!-- Article main content -->
 			<article class="col-xs-12 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">Sign in</h1>
+					<h1 class="page-title">Entrar</h1>
 				</header>
-				
+
 				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 					<div class="panel panel-default">
-						<div class="panel-body">
-							<h3 class="thin text-center">Sign in to your account</h3>
-							<p class="text-center text-muted">Lorem ipsum dolor sit amet, <a href="signup.html">Register</a> adipisicing elit. Quo nulla quibusdam cum doloremque incidunt nemo sunt a tenetur omnis odio. </p>
-							<hr>
-							
-							<form>
-								<div class="top-margin">
-									<label>Username/Email <span class="text-danger">*</span></label>
-									<input type="text" class="form-control">
-								</div>
-								<div class="top-margin">
-									<label>Password <span class="text-danger">*</span></label>
-									<input type="password" class="form-control">
-								</div>
+						<div class="container-fluid h-100">
+							<row class="row form-cadastro justify-content-center">
+								<div class="col-3 align-self-center area-form border">
 
-								<hr>
+									<div class="row justify-content-center mb-4" style="
+                                    text-align: center;
+                                ">
+										<img src="src/img/logo.png" alt="">
+									</div>
+									<span class="small d-block text-center" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                ">Entre com seu email institucional <b style="margin: 5px;">Fatec</b></span>
 
-								<div class="row">
-									<div class="col-lg-8">
-										<b><a href="">Forgot password?</a></b>
-									</div>
-									<div class="col-lg-4 text-right">
-										<button class="btn btn-action" type="submit">Sign in</button>
-									</div>
+									<a href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=c7131925-3832-472f-adaf-95bf2b6cf53f&protectedtoken=true&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d&nonce=637567860857631532.a18e6740-78e7-4419-8f8b-3ad4cb30abf7&state=DYsxEoAwCMCons_BUqGAz6FaV0e_L0NyWVIAYE2WpFAKTNm6mit5z26djz2aTzUhNJ-GIu1Ef3wgxy3XYIrxWMl3q-8X9Qc"<button type="button" class="btn btn-listar btn-block mt-2">Email institucional
+										Fatec</button></a>
+									<span class="small d-block text-center" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 10px;
+                                ">ou<br></span>
+									<span class="small d-block text-center" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                ">Acesso com sua conta</span>
+
+									<form action="">
+										
+										<div class="input group mt-2" style="margin-bottom: 10px;margin-top: 10px;">
+											<input type="text" class="form-control bg-light btn-outline-secondary"
+												placeholder="Email: diego.lins@fatec.sp.gov.br">
+										</div>
+										
+										<div class="input group mt-2" style="margin-bottom: 40px;margin-top: 10px;">
+											<input type="password" class="form-control bg-light btn-outline-secondary"
+												placeholder="Senha: ******">
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+											<a href="index.html"><button type="button"
+													class="btn btn-secondary btn-block mt-2">CANCELAR</button></a>
+											</div>
+											<div class="col-md-6">
+												<a href="signin.html"><button type="button"
+													class="btn btn-listar btn-block mt-2">ENTRAR</button></a>
+											</div>
+										</div>
+									</form>
+									<a href="signup.html"><button type="button" class="btn btn-outline-secondary btn-block mt-2" style="
+                                    margin-top: 10px;
+                                ">CADASTRAR</button></a>
 								</div>
-							</form>
+							</row>
 						</div>
-					</div>
 
+
+					</div>
 				</div>
-				
-			</article>
-			<!-- /Article -->
 
 		</div>
-	</div>	<!-- /container -->
-	
+
+		</article>
+		<!-- /Article -->
+
+	</div>
+	</div>
+	<!-- /container -->
+
 
 	<footer id="footer" class="top-space">
 
 		<div class="footer1">
 			<div class="container">
 				<div class="row">
-					
+
 					<div class="col-md-3 widget">
 						<h3 class="widget-title">Contact</h3>
 						<div class="widget-body">
-							<p>+234 23 9873237<br>
-								<a href="mailto:#">some.email@somewhere.com</a><br>
-								<br>
-								234 Hidden Pond Road, Ashland City, TN 37015
-							</p>	
+							<p>+55 11 987549239<br>
+								<a href="mailto:#">equipe@billyfood.com</a><br>
+								<br> Ferraz de Vasconcelos, São Paulo
+							</p>
 						</div>
 					</div>
 
 					<div class="col-md-3 widget">
 						<h3 class="widget-title">Follow me</h3>
 						<div class="widget-body">
-							<p class="follow-me-icons clearfix">
-								<a href=""><i class="fa fa-twitter fa-2"></i></a>
-								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-								<a href=""><i class="fa fa-github fa-2"></i></a>
-								<a href=""><i class="fa fa-facebook fa-2"></i></a>
-							</p>	
+							<p class="follow-me-icons">
+								<a href="https://github.com/DiegoLins10"><i class="fa fa-twitter fa-2"></i></a>
+								<a href="https://github.com/DiegoLins10"><i class="fa fa-dribbble fa-2"></i></a>
+								<a href="https://github.com/DiegoLins10"><i class="fa fa-github fa-2"></i></a>
+								<a href="https://github.com/DiegoLins10"><i class="fa fa-facebook fa-2"></i></a>
+							</p>
 						</div>
 					</div>
 
 					<div class="col-md-6 widget">
-						<h3 class="widget-title">Text widget</h3>
+						<h3 class="widget-title">Agradecimentos</h3>
 						<div class="widget-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores, quibusdam architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi ad id expedita cupiditate repellendus possimus unde?</p>
-							<p>Eius consequatur nihil quibusdam! Laborum, rerum, quis, inventore ipsa autem repellat provident assumenda labore soluta minima alias temporibus facere distinctio quas adipisci nam sunt explicabo officia tenetur at ea quos doloribus dolorum voluptate reprehenderit architecto sint libero illo et hic.</p>
+							<p>Agradecimento especial para os professores da Fatec Ferraz de Vasconcelos que nos
+								proporcionaram o conhecimento e a motiva&ccedil;ão para o desenvolvimento desse projeto.
+							</p>
+							<p></p>
 						</div>
 					</div>
 
-				</div> <!-- /row of widgets -->
+				</div>
+				<!-- /row of widgets -->
 			</div>
 		</div>
 
 		<div class="footer2">
 			<div class="container">
 				<div class="row">
-					
+
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-								<a href="#">Home</a> | 
-								<a href="about.html">About</a> |
+								<a href="#">Home</a> |
+								<a href="about.html">Sobre nós</a> |
 								<!--<a href="sidebar-right.html">Sidebar</a> |-->
-								<a href="contact.html">Contact</a> |
-								<b><a href="signup.html">Sign up</a></b>
+								<a href="contact.html">Contatos</a> |
+								<b><a href="signup.html">Login</a></b>
 							</p>
 						</div>
 					</div>
@@ -171,16 +223,19 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a href="//gettemplate.com/" rel="designer">gettemplate</a> 
+								Copyright &copy; 2021, BillyFood. Criado por <a href="https://github.com/DiegoLins10"
+									rel="designer">Diego Lins</a>
 							</p>
 						</div>
 					</div>
 
-				</div> <!-- /row of widgets -->
+				</div>
+				<!-- /row of widgets -->
 			</div>
 		</div>
-	</footer>	
-		
+
+	</footer>
+
 
 
 
@@ -191,5 +246,9 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/popper.js/dist/popper.js"></script>
 </body>
+
 </html>

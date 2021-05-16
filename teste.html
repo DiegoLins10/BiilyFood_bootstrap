@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Diego Lins">
+
+    <title>Cadastrar - Billyfood</title>
+
+    <link rel="shortcut icon" href="assets/images/kkk.png">
+
+    <link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- Custom styles for our template -->
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="src/css/style.css" rel="stylesheet">
+    <link href = "node_modules/bootstrap/scss/_reboot.scss" rel="stylesheet"> 
+    <link href="node_modules/bootstrap/scss/_buttons.scss" rel ="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/scss/_root.scss">
+    <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top headroom">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Button for smallest screens -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logopng2.png" alt="logo bilyfood" style="
+					width: 98px;
+					height: 100%;
+					transform: scale(1.9);
+				"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre nós</a></li>
+                    <!--<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="sidebar-left.html">Left Sidebar</a></li>
+							<li><a href="sidebar-right.html">Right Sidebar</a></li>
+						</ul>
+					</li>-->
+                    <li><a href="contact.html">Contatos</a></li>
+                    <li class="active"><a class="btn" href="signin.html">LOGIN / CADASTRAR</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- /.navbar -->
+
+    <header id="head" class="secondary"></header>
+
+    <!-- container -->
+    <div class="container">
+
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">User access</li>
+        </ol>
+
+        <div class="row">
+
+            <!-- Article main content -->
+            <article class="col-xs-12 maincontent">
+                <header class="page-header">
+                    <h1 class="page-title">Sign in</h1>
+                </header>
+
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <div class="panel panel-default">
+                        <div class="container-fluid h-100">
+                            <row class="row form-cadastro justify-content-center">
+                                <div class="col-3 align-self-center area-form border">
+
+                                    <div class="row justify-content-center mb-4" style="
+                                    text-align: center;
+                                ">
+                                        <img src="src/img/logo.png" alt="">
+                                    </div>
+                                    <span class="small d-block text-center" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                ">Cadastre com seu email institucional <b style="margin: 5px;">Fatec</b></span>
+
+                                    <button type="button" class="btn btn-listar btn-block mt-2">Email institucional
+                                        Fatec</button>
+                                    <span class="small d-block text-center" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 10px;
+                                ">ou<br></span>
+                                    <span class="small d-block text-center" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                ">Crie um novo cadastro</span>
+
+                                    <form action="">
+                                        <div class="input group mt-2" style="margin-bottom: 10px;">
+                                            <input type="text" class="form-control bg-light btn-outline-secondary" placeholder="Nome Completo: Diego Fernandes Lins">
+                                        </div>
+                                        <div class="input group mt-2" style="margin-bottom: 10px;margin-top: 10px;">
+                                            <input type="text" class="form-control bg-light btn-outline-secondary" placeholder="Email: diego.lins@fatec.sp.gov.br">
+                                        </div>
+                                        <div class="input group mt-2" style="margin-bottom: 10px;margin-top: 10px;">
+                                            <input type="text" class="form-control bg-light btn-outline-secondary" placeholder="CPF: 454444">
+                                        </div>
+                                        <div class="input group mt-2" style="margin-bottom: 10px;margin-top: 10px;">
+                                            <input type="password" class="form-control bg-light btn-outline-secondary" placeholder="Senha: ******">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <button type="button" class="btn btn-secondary btn-block mt-2">CANCELAR</button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <button type="button" class="btn btn-listar btn-block mt-2">CADASTRAR</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <button type="button" class="btn btn-outline-secondary btn-block mt-2" style="
+                                    margin-top: 10px;
+                                ">JA TENHO
+                                        CONTA</button>
+                                </div>
+                            </row>
+                        </div>
+
+
+                    </div>
+                </div>
+
+        </div>
+
+        </article>
+        <!-- /Article -->
+
+    </div>
+    </div>
+    <!-- /container -->
+
+
+    <footer id="footer" class="top-space">
+
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 widget">
+                        <h3 class="widget-title">Contact</h3>
+                        <div class="widget-body">
+                            <p>+55 11 987549239<br>
+                                <a href="mailto:#">equipe@billyfood.com</a><br>
+                                <br> Ferraz de Vasconcelos, São Paulo
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 widget">
+                        <h3 class="widget-title">Follow me</h3>
+                        <div class="widget-body">
+                            <p class="follow-me-icons">
+                                <a href="https://github.com/DiegoLins10"><i class="fa fa-twitter fa-2"></i></a>
+                                <a href="https://github.com/DiegoLins10"><i class="fa fa-dribbble fa-2"></i></a>
+                                <a href="https://github.com/DiegoLins10"><i class="fa fa-github fa-2"></i></a>
+                                <a href="https://github.com/DiegoLins10"><i class="fa fa-facebook fa-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 widget">
+                        <h3 class="widget-title">Agradecimentos</h3>
+                        <div class="widget-body">
+                            <p>Agradecimento especial para os professores da Fatec Ferraz de Vasconcelos que nos proporcionaram o conhecimento e a motiva&ccedil;ão para o desenvolvimento desse projeto.
+                            </p>
+                            <p></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /row of widgets -->
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 widget">
+                        <div class="widget-body">
+                            <p class="simplenav">
+                                <a href="#">Home</a> |
+                                <a href="about.html">Sobre nós</a> |
+                                <!--<a href="sidebar-right.html">Sidebar</a> |-->
+                                <a href="contact.html">Contatos</a> |
+                                <b><a href="signup.html">Login</a></b>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 widget">
+                        <div class="widget-body">
+                            <p class="text-right">
+                                Copyright &copy; 2021, BillyFood. Criado por <a href="https://github.com/DiegoLins10" rel="designer">Diego Lins</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /row of widgets -->
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/headroom.min.js"></script>
+    <script src="assets/js/jQuery.headroom.min.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+</body>
+
+</html>
