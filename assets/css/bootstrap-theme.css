@@ -101,20 +101,20 @@
     border-color: #6c757d;
 	color: white;
 	border: 1px solid;
-    border-color: #6c757d;
+    border-color: #565d63;
 	
 }
 .btn-secondary:hover{
-	color: white;
-    background-color: #6c757d;
-    border-color: #b20000;
+	color: #fff;
+    background-color: #474e55;
+    border-color: #474e55;
 	
 }
 .btn-outline-eu{
 	background-color: #F7F5F4;
 	border: 1px solid;
  	border-color:#6c757d;
-	 color: #6c757d;
+	color:#6c757d ;
 }
 
 .btn-outline-eu:hover {
