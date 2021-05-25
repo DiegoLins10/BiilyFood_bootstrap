@@ -9,6 +9,7 @@ Este projeto tem como objetivo implementar um modulo Web usando o framework boot
 
 ## Amostra da página web 🔭
 - https://billyfood.netlify.app/
+Essa página foi hospedada em um domonio gratuito de uma plataforma baseada em Git chamada netlify.
 
 ## Tecnologias
 - Bootstrap
