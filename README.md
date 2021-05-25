@@ -1,6 +1,6 @@
 ## Projeto - Novo modulo web BillyFood 
 ### Centro Paula Souza - Fatec Ferraz - Curso de Análise e Desenvolvimento de Sistemas
-### Disciplina – Projeto Integrador III – Prof. Alecio
+### Disciplina – Projeto Integrador IV – Prof. Alecio
 
 - Diego Fernandes Lins
 
